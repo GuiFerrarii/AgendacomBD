@@ -31,7 +31,7 @@ class DBAgenda:
                       f' where id = "{cod}"'
         self.meu_cursor.execute(comando_sql)
         self.conexao.commit()
-
+#com erro
     def exclui_contato(self, cod):
         for i in range(len(self.listaContatos)):
             if cod == self.listaContatos[i].cod:
